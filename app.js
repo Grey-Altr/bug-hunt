@@ -1,6 +1,8 @@
 // import functions and grab DOM elements
 const shedClick = document.getElementById('shed-button');
 const boulderButton = document.getElementById('boulder');
+const shedButton = document.getElementsByTagName('shed');
+const treeButton = document.getElementById('tree');
 
 const shedContainer = document.getElementById('Shed-Container');
 const treeContainer = document.getElementById('tree-container');
